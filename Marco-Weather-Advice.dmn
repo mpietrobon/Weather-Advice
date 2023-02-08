@@ -8,7 +8,7 @@
     </dmn:allowedValues>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_E97C61CC-580E-40B9-86D7-19B8990958FC" name="weather" isCollection="false">
-    <dmn:itemComponent id="_D37B34B1-97A2-4C76-9FF2-E264148EFA9E" name="temprature" isCollection="false">
+    <dmn:itemComponent id="_D37B34B1-97A2-4C76-9FF2-E264148EFA9E" name="temperature" isCollection="false">
       <dmn:typeRef>temperature</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_A77C4CBE-D756-46D2-BF9C-3E0F156B100D" name="rainForecast" isCollection="false">
@@ -17,6 +17,12 @@
     <dmn:itemComponent id="_6B760C3C-85C1-4720-BD94-A8F2D90223A7" name="stormAlert" isCollection="false">
       <dmn:typeRef>boolean</dmn:typeRef>
     </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_8AE7F6BE-63DD-4691-AB15-862626B8780A" name="Name" isCollection="false">
+    <dmn:typeRef>string</dmn:typeRef>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_E32A421D-D0CA-4A9E-8BF0-DB1495C5C6E5" name="Weather-Advice" isCollection="false">
+    <dmn:typeRef>string</dmn:typeRef>
   </dmn:itemDefinition>
   <dmn:inputData id="_A72F1963-C0E8-442A-9F57-1EBF1AB09EE5" name="Name">
     <dmn:extensionElements/>
@@ -88,7 +94,7 @@
           <dmn:text>"freddo"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_3E59EDE6-C91A-42EC-922B-21DA744DF411">
-          <dmn:text>-</dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_8BCE8928-BA0A-49BA-98FC-10DE853EE895">
           <dmn:text>"giornata fredda"</dmn:text>
