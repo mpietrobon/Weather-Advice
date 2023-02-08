@@ -8,7 +8,7 @@
     </dmn:allowedValues>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_E97C61CC-580E-40B9-86D7-19B8990958FC" name="weather" isCollection="false">
-    <dmn:itemComponent id="_D37B34B1-97A2-4C76-9FF2-E264148EFA9E" name="temprature" isCollection="false">
+    <dmn:itemComponent id="_D37B34B1-97A2-4C76-9FF2-E264148EFA9E" name="temperature" isCollection="false">
       <dmn:typeRef>temperature</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_A77C4CBE-D756-46D2-BF9C-3E0F156B100D" name="rainForecast" isCollection="false">
@@ -17,6 +17,12 @@
     <dmn:itemComponent id="_6B760C3C-85C1-4720-BD94-A8F2D90223A7" name="stormAlert" isCollection="false">
       <dmn:typeRef>boolean</dmn:typeRef>
     </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_082C4F71-B8FC-4047-9223-A4316C6A076D" name="Insert a name" isCollection="false">
+    <dmn:typeRef>Any</dmn:typeRef>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_D1797AA1-CB96-49BC-9AB3-B45B0E3260C9" name="Weather-Advice" isCollection="false">
+    <dmn:typeRef>string</dmn:typeRef>
   </dmn:itemDefinition>
   <dmn:inputData id="_A72F1963-C0E8-442A-9F57-1EBF1AB09EE5" name="Name">
     <dmn:extensionElements/>
