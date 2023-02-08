@@ -18,10 +18,10 @@
       <dmn:typeRef>boolean</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:itemDefinition id="_082C4F71-B8FC-4047-9223-A4316C6A076D" name="Insert a name" isCollection="false">
-    <dmn:typeRef>Any</dmn:typeRef>
+  <dmn:itemDefinition id="_8AE7F6BE-63DD-4691-AB15-862626B8780A" name="Name" isCollection="false">
+    <dmn:typeRef>string</dmn:typeRef>
   </dmn:itemDefinition>
-  <dmn:itemDefinition id="_D1797AA1-CB96-49BC-9AB3-B45B0E3260C9" name="Weather-Advice" isCollection="false">
+  <dmn:itemDefinition id="_E32A421D-D0CA-4A9E-8BF0-DB1495C5C6E5" name="Weather-Advice" isCollection="false">
     <dmn:typeRef>string</dmn:typeRef>
   </dmn:itemDefinition>
   <dmn:inputData id="_A72F1963-C0E8-442A-9F57-1EBF1AB09EE5" name="Name">
@@ -94,7 +94,7 @@
           <dmn:text>"freddo"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_3E59EDE6-C91A-42EC-922B-21DA744DF411">
-          <dmn:text>-</dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_8BCE8928-BA0A-49BA-98FC-10DE853EE895">
           <dmn:text>"giornata fredda"</dmn:text>
